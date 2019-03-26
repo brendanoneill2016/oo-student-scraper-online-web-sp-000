@@ -12,11 +12,15 @@ class Student
   end
 
   def self.create_from_collection(students_array)
+<<<<<<< HEAD
     count = 0
     students_array.each do |s|
     student = self.new(students_array[count])
     count += 1
   end
+=======
+    binding.pry
+>>>>>>> 19f790c597d675cf94042ee14794bfcd492cf950
   
   end
 
